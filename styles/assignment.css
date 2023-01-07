@@ -84,7 +84,43 @@
  .right{
     color:rgb(90, 194, 90) ;
  }
+ /* myself */
 
+ .myself-id{
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/joanna-kosinska-9gfGDbxuqrU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;background-size: cover;
+    width: 90%;
+    height: 700px;
+    padding-right:-200px;
+    padding-left: -200px;
+ }
+ .image-size{
+    width: 500px;
+    height: 600px;
+    padding:  50px 400px 200px 0;
+ }
+.name{
+    padding:200px 300px ;
+}
+.my-name{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.name-btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    background-color: yellow;
+}
+.name-color{
+    color: red;
+}
 
  /* my plans pannel */
 
