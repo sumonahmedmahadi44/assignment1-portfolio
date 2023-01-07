@@ -74,7 +74,7 @@
     color: rgb(54, 52, 52);
     margin-bottom: 15px;
  }
- .icon{
+ .icon-past{
     font-size: 18px;
     text-align: left;
     padding-left: 60px;
@@ -96,6 +96,7 @@
     height: 700px;
     padding-right:-200px;
     padding-left: -200px;
+    margin-top: 50px;
  }
  .image-size{
     width: 500px;
@@ -137,6 +138,7 @@
     font-size: 50px;
     font-weight: bold;
     margin: 100px;
+    color: red;
 }
 
 .plans{
@@ -176,6 +178,7 @@
     margin: 100px;
     text-align: center;
     text-decoration: underline;
+    color: rgb(221, 23, 195);
 }
 
 /* call now pannel */
@@ -223,6 +226,7 @@
 .future{
     font-size: 40px;
     padding-bottom: 20px;
+    margin-left: -350px;
 }
 .footer-des{
     font-size: 20px;
@@ -230,8 +234,9 @@
     text-align: left;
 }
 .icon{
-    /* margin-left: -50px; */
-    padding-right: 50px;
+    margin-left: -50px;
+    padding-right: 100px;
+    display: flex;
 }
 .subscribe{
     margin-bottom: 130px;
