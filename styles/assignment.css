@@ -98,7 +98,7 @@
 
  
 .my-plan-title{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     margin: 100px;
 }
@@ -121,6 +121,26 @@
     font-size: 18px;
     color: rgb(54, 52, 52);
 }
+/* my hobby pannel */
+
+.hobby-icon{
+    height: 150px;
+    width: 150px;
+}
+.hobies{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 45px;
+    margin-bottom: 150px;
+}
+.my-hobby-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 100px;
+    text-align: center;
+    text-decoration: underline;
+}
 
 /* call now pannel */
 
@@ -130,10 +150,9 @@
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 300px;
     width: 70%;
     margin-bottom: 250px;
-
 }
 .keep-positive{
    padding:35px
@@ -175,9 +194,8 @@
     text-align: left;
 }
 .icon{
-   display: flex;
-    margin-left: -90px;
-    padding-right: 200px;
+    /* margin-left: -50px; */
+    padding-right: 50px;
 }
 .subscribe{
     margin-bottom: 130px;
