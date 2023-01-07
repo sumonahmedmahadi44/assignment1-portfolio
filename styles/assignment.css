@@ -1,8 +1,6 @@
 *{
     margin:0 auto;
     padding: auto;
-    border: 1px solid red;
-   
 }
 /* border pannel */
 .border{
@@ -55,15 +53,15 @@
     height: 100vh;
 }
 .myself{
-    padding-left: 200px;
+    padding-left: 300px;
 }
 .mypast-description{
-    padding: 300px;
-    margin-right: 300px;
-    margin-top: 200px;
+    text-align: center;
+    padding: 500px 250px 400px 500px;
+    margin-right: 100px;
 }
  .mypast-title{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 15px;
  }
