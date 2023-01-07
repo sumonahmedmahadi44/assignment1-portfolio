@@ -1,6 +1,7 @@
 *{
     margin:0 auto;
     padding: auto;
+    border: 1px solid red;
    
 }
 /* border pannel */
@@ -80,6 +81,7 @@
     padding-left: 60px;
     color: rgb(54, 52, 52);
     margin-bottom: 15px;
+    padding-right: 20px;
  }
  .right{
     color:rgb(90, 194, 90) ;
