@@ -1,6 +1,7 @@
 *{
     margin:0 auto;
     padding: auto;
+   
 }
 /* border pannel */
 .border{
@@ -50,7 +51,7 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 75vh;
+    height: 100vh;
 }
 .myself{
     padding-left: 200px;
@@ -83,3 +84,115 @@
  .right{
     color:rgb(90, 194, 90) ;
  }
+
+
+ /* my plans pannel */
+
+ .my-plan{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+ }
+
+ 
+.my-plan-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 100px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 35vh;
+    margin-top: 30px;
+
+}
+
+.plan-tite{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.want{
+    font-size: 18px;
+    color: rgb(54, 52, 52);
+}
+
+/* call now pannel */
+
+.call-now{
+    text-align: left;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(../images/watch.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 70%;
+    margin-bottom: 250px;
+
+}
+.keep-positive{
+   padding:35px
+}
+.call-now-title{
+    font-size:35px;
+    color: white;
+}
+.btn-primary{
+    color: orangered;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding:10px 30px;
+    font-size: 25px;
+}
+
+/* footer pannel */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 550px;
+    width: 100%;
+    background-color: black;
+}
+ 
+.footer-contact{
+    color: white;
+}
+.future{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.footer-des{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+.icon{
+   display: flex;
+    margin-left: -90px;
+    padding-right: 200px;
+}
+.subscribe{
+    margin-bottom: 130px;
+}
+.footer-title{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.email-type{
+    padding: 15px 30px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 15px;
+    border: 1px solid white;
+
+}
