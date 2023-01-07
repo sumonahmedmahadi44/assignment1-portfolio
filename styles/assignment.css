@@ -57,8 +57,9 @@
 }
 .mypast-description{
     text-align: center;
-    padding: 500px 250px 400px 500px;
-    margin-right: 100px;
+    /* padding: 500px 250px 400px 500px;
+    margin-right: 100px; */
+    padding-right: 200px;
 }
  .mypast-title{
     font-size: 40px;
@@ -90,13 +91,12 @@
     display: flex;
     justify-content: space-around;
     background-image: url("../images/joanna-kosinska-9gfGDbxuqrU-unsplash.jpg");
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;background-size: cover;
     width: 90%;
     height: 700px;
-    padding-right:-200px;
-    padding-left: -200px;
     margin-top: 50px;
+    margin-left: -70px;
  }
  .image-size{
     width: 500px;
@@ -113,8 +113,8 @@
     margin-top: 10px;
 }
 .name-btn{
-    padding: 15px 30px;
-    font-size: 20px;
+    padding: 10px 30px;
+    font-size: 15px;
     margin-top: 10px;
     color: black;
     background-color: yellow;
